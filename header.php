@@ -29,6 +29,9 @@
  <script type="text/javascript">
 
  </script>
+ <style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+</style>
  <?php wp_head(); ?>
  </head>
  <body>
