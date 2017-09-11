@@ -121,8 +121,10 @@ img.custom-logo {
     float: left;
     width: auto;
     margin-right: 1%;
-    height: 50px;
+    margin-top: 20px;
+    height: 20px;
 }
+
 /* -------- banner ----------- */
 .top .container { padding: 0; }
 .banner {
@@ -187,12 +189,12 @@ h2.middletitle { padding-bottom:10px;text-align:center; }
     padding-bottom: 20px;
 }
 .navbar-nav li a {
-    color: #e6e6e6;
+    color: #ccc;
     font-family: 'Montserrat', sans-serif;
 }
 .navbar-nav li a:hover {
-    background-color: #ded5c5;
-    color: #000;
+    background-color: #4a516c;
+    color: #fff;
 }
 .bottom {
 }

@@ -62,7 +62,7 @@ add_action('wp_enqueue_scripts', 'simple_bootstrap_scripts', 99);
 // Register Custom Navigation Walker
 require_once('WP_Bootstrap_Navwalker.php');
 
-
+// Extend Nav Walker to add class to submenu
 
 
 /* ------ register widget areas ---------*/

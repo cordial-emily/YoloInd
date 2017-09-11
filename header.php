@@ -29,7 +29,6 @@
  <script type="text/javascript">
 
  </script>
-
  <?php wp_head(); ?>
  </head>
  <body>
@@ -41,19 +40,29 @@
                  <?php get_template_part( 'logo'); ?>
 
 
-
+              <div class="dropdown">
                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                    <span class="glyphicon glyphicon-align-justify"></span>
                </button>
                <div class="navbar-collapse collapse" role="navigation">
 
-                   <?php wp_nav_menu( array(
-                    'theme_location' 	  => 'primary',
-                    'container' 		    => 'ul',
-                    'menu_class'      	=> 'navbar-nav nav'
-                    )); ?>
+                   <?php
+
+                   wp_nav_menu( array(
+                     'menu'              => 'primary',
+                      'theme_location'    => 'primary',
+                      'depth'             => 2,
+                      'container'         => 'div',
+                      'container_class'   => 'collapse navbar-collapse',
+                      'container_id'      => 'bs-example-navbar-collapse-1',
+                      'menu_class'        => 'nav navbar-nav',
+                      'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                      'walker'            => new WP_Bootstrap_Navwalker()
+                    ));
+
+                    ?>
 
                </div>
-
+              </div>
          </div>
      </header>
