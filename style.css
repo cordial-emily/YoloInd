@@ -102,6 +102,13 @@ img.img-fluid {
 .top {
     background-color: #192551;
 }
+.top .container.sidebar-latest {
+    width: 100%;
+    min-height: 30px;
+    background-color: #c1231e;
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+}
 .top .navbar-brand {
     height: 50px;
     line-height: 50px;
@@ -121,8 +128,9 @@ img.custom-logo {
     float: left;
     width: auto;
     margin-right: 1%;
-    margin-top: 20px;
-    height: 20px;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    height: 15px;
 }
 
 /* -------- banner ----------- */
