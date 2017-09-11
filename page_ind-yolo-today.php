@@ -13,7 +13,7 @@
           <h1 style="padding: 48px 60px 0px;"><?php echo get_the_title(); ?></h1>
 
 
-          <?php $catquery = new WP_Query( 'cat=3&posts_per_page=5' ); ?>
+          <?php $catquery = new WP_Query( 'cat=3,4&posts_per_page=5' ); ?>
 
           <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
 
