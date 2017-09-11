@@ -6,13 +6,14 @@
     <div class="banner">
         <div class="container subcontainer">
 
-          <div class="floating_title">
+          <div class="floating_title jumbotron">
             <h1>RESISTING THE TRUMP AGENDA</h1>
-            <h5>. . . in Yolo County.</h5>
+            <p>Concerned citizens of Yolo County care about national issues and we are getting active. Get involved today.</p>
+            <h4 class="text-center">Sign up for our:</h4>
 
-            <button class="btn btn-default btn-lg" type="button">
-            Get Started
-            </button>
+            <a class="text-center" href="http://facebook.us14.list-manage2.com/subscribe?u=c0cc03e7f31bbe923efd397fa&id=f4243dace0"><button class="btn btn-default btn-lg" type="button">
+             Newsletter
+            </button></a>
           </div><!--end floating_title-->
 
         </div>

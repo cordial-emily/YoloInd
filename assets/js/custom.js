@@ -1,10 +1,10 @@
 window.onload = function() {
 
   /* This is a click event to display the submenu in the main menu */
-  $('.dropdown-submenu').click(function(){
+  /*$('.dropdown-submenu').click(function(){
     $('dropdown-menu').css('display','block');
     return false;
-  });
+  });*/
 
   /* This prints a hello message in the console. (Don't forget to check. :) ) ************************************************/
 

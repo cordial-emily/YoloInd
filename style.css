@@ -90,7 +90,14 @@ p {
     line-height: 1.6;
 }
 strong { font-family: "Montserrat", "Helvetica Neue", sans-serif; font-size: 18px; }
-.btn { background-color: #009b9b; color:#fdfefe; }
+.btn {
+    background-color: #c1231e;
+    border: 0px;
+    color: #fdfefe;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", sans-serif;
+}
 
 img.img-fluid {
     width: initial;
@@ -98,7 +105,7 @@ img.img-fluid {
     height: auto;
 }
 
-/* ---------- navigation -----------*/
+/* ---------- announcement top -----------*/
 .top {
     background-color: #192551;
 }
@@ -112,6 +119,7 @@ img.img-fluid {
 .announcement-widget-content {
     padding: 15px 20px 5px;
 }
+/* ---------- navigation -----------*/
 .top .navbar-brand {
     height: 50px;
     line-height: 50px;
@@ -125,6 +133,33 @@ img.img-fluid {
 .current-menu-item{
     background-color: #ded5c5;
     padding: 0 10px;
+}
+.nav.navbar-nav a.dropdown-toggle:active, .nav.navbar-nav a.dropdown-toggle:focus, .nav.navbar-nav a.dropdown-toggle:visited {
+    background-color: #192551;
+}
+.nav.navbar-nav a.dropdown-toggle:hover {
+    background-color: #4a516c;
+}
+li.dropdown.open ul li a {
+    padding-top: 12;
+    padding-bottom: 14px;
+}
+ul.dropdown-menu {
+    background: #192551;
+    padding: 0px 0px 0px 0px;
+    border: 0px solid rgba(0,0,0,.15);
+    border-radius: 0px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.navbar-nav li a {
+    color: #ccc;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    min-height: 35px;
+}
+.navbar-nav li a:hover {
+    background-color: #4a516c;
+    color: #fff;
 }
 /* --------- logo ---------------- */
 img.custom-logo {
@@ -141,9 +176,8 @@ img.custom-logo {
 .banner {
     min-height: 50px;
 }
-
 .banner .container {
-    padding: 40px 30px 30px 40px;
+    padding: 62px 30px 30px 40px;
 }
 .banner .container p {
     font-size: 22px;
@@ -157,9 +191,11 @@ img.custom-logo {
     margin-bottom: 2em;
 }
 .floating_title {
-    padding: 5% 12%;
-    background-color: rgba(25, 37, 72, .85);
-    color: #fbfbfb;
+  color: #fbfbfb;
+  padding: 45px;
+  max-width: 781px;
+  margin: 0 auto;
+  background: rgba(26,42,78,0.92);
 }
 .floating_title h1 {
     font-family: "Montserrat", "Helvetica Neue", sans-serif;
@@ -198,14 +234,6 @@ h2.middletitle { padding-bottom:10px;text-align:center; }
     background-color: #FFF;
     min-height: 300px;
     padding-bottom: 20px;
-}
-.navbar-nav li a {
-    color: #ccc;
-    font-family: 'Montserrat', sans-serif;
-}
-.navbar-nav li a:hover {
-    background-color: #4a516c;
-    color: #fff;
 }
 .bottom {
 }
@@ -292,57 +320,7 @@ footer#footer { background-color:#333; }
 footer#footer .row p.text-center { color: #fff; }
 footer#footer h4 { position: relative; display: block; padding: 15px 15px 10px; color: #fff;}
 
-/*--- cv education section ------------*/
-.container.bea_border.cv .port-img { width: 80%;}
-h1.cvttle { border-bottom-style: solid; border-width: 5px; padding-bottom: 15px; }
-p.majors {
- font-family: 'Josefin Sans', sans-serif; font-weight:400;line-height:140%;font-size:140%;
-}
-/*-----cv styles------------------*/
 
-.date_style {
-    color:#666666;
-    font-size: 110%;
-    font-weight: 200;
-}
-.description {
-    letter-spacing:1px;
-    line-height: 140%;
-}
-.container.cvmar .row .col-md-12 p.cv-summary { margin: 40px 60px 40px 40px; }
-.ital span {
-    font-style:italic;
-}
-.lists_a {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight:200;
-    line-height:150%;
-    font-size:110%;
-}
-h4.cvmenu {
-    margin-bottom: 0px;
-    position:absolute;
-    bottom:0;
-    left:0;
-}
-h4.cvmenu ul li a {
-    background: #595959;
-    color: #ded5c5;
-}
-h4.cvmenu ul li a:hover { color: #000; }
-
-nav nav-tabs ul li, a:link, a:visited, a:active{
-    color: #c1231e;
-}
-.container .navbar-collapse {
-    padding-left: 0px;
-}
-.artsubheading {
-  margin-bottom: 10px;
-  margin-top: 20px;
-  font-family: 'Lato', sans-serif;
-  padding-left: 2px;
-}
 /* --------- cv web portfolio section --------------- */
 button.btn.btn-primary.web {
     padding: 0px 0px;
@@ -442,8 +420,8 @@ button.btn.btn-primary {
     padding-bottom: 5%;
 }
 button.btn.btn-default:hover {
-    background-color: #a5a99e;
-    border: 1px solid #a5a99e;
+    background-color: #2b3a5b;
+    border: 0px;
     color: #fff;
 }
 span.webtitle::first-letter {
@@ -579,6 +557,9 @@ span.dashicons.dashicons-clock {
 			Media Queries for screen less than  (600px)
 ****************************************** */
 @media screen and (max-width: 600px) {
+  img.custom-logo {
+    height: 10px;
+  }
   button span.webtitle {
     top: 0px;
     height: 130px;

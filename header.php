@@ -40,11 +40,12 @@
                   <?php endif; ?>
          </div>
          <div class="container">
-
-
+           <div class="row">
+             <div class="col-xs-3">
                  <?php get_template_part( 'logo'); ?>
 
-
+             </div>
+             <div class="col-xs-9">
               <div class="dropdown">
                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                    <span class="glyphicon glyphicon-align-justify"></span>
@@ -69,5 +70,7 @@
 
                </div>
               </div>
+              </div>
+            </div> <!-- end row -->
          </div>
      </header>
