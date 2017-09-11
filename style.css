@@ -109,6 +109,9 @@ img.img-fluid {
     border-bottom: 1px solid #ccc;
     color: #fff;
 }
+.announcement-widget-content {
+    padding: 15px 20px 5px;
+}
 .top .navbar-brand {
     height: 50px;
     line-height: 50px;

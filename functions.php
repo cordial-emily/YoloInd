@@ -62,7 +62,7 @@ add_action('wp_enqueue_scripts', 'simple_bootstrap_scripts', 99);
 // Register Custom Navigation Walker
 require_once('WP_Bootstrap_Navwalker.php');
 
-// Extend Nav Walker to add class to submenu
+
 
 
 /* ------ register widget areas ---------*/
@@ -80,6 +80,21 @@ function simple_bootstrap_widget_init() {
 }
 
 add_action ('widgets_init', 'simple_bootstrap_widget_init');
+
+function announcement_sidebar() {
+    register_sidebar(
+        array (
+            'name' => __( 'Announcement Sidebar', 'IndivisibleYolo' ),
+            'id' => 'announcement_sidebar',
+            'description' => __( 'Front page, above the menu, enter announcements here.', 'IndivisibleYolo' ),
+            'before_widget' => '<div class="announcement-widget-content">',
+            'after_widget' => "</div>",
+            'before_title' => '<strong class="announcement-widget-title">',
+            'after_title' => '</strong>',
+        )
+    );
+}
+add_action( 'widgets_init', 'announcement_sidebar' );
 
 /* Adding a custom post type for slider  */
 

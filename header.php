@@ -35,7 +35,9 @@
  <!-- Site header and navigation -->
      <header class="top" role="header">
          <div class="container sidebar-latest">
-         
+                 <?php if ( is_active_sidebar( 'announcement_sidebar' ) ) : ?>
+                  <?php dynamic_sidebar( 'announcement_sidebar' ); ?>
+                  <?php endif; ?>
          </div>
          <div class="container">
 
