@@ -32,5 +32,6 @@
       <?php get_template_part( 'carousel', 'test' ); ?>
   </div>
 </div>
+</div>
 
 <?php get_footer(); ?>

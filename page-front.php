@@ -14,15 +14,8 @@
               <a class="text-center" href="http://facebook.us14.list-manage2.com/subscribe?u=c0cc03e7f31bbe923efd397fa&id=f4243dace0"><button id="singlebutton" name="singlebutton" class="btn btn-default btn-lg" type="button">
                Newsletter
               </button></a>
-              <!--<button id="singlebutton" name="singlebutton" class="btn btn-primary">Next Step!</button> -->
             </div>
-            <!--<h4 class="text-center">Sign up for our:</h4>
-
-            <a class="text-center" href="http://facebook.us14.list-manage2.com/subscribe?u=c0cc03e7f31bbe923efd397fa&id=f4243dace0"><button class="btn btn-default btn-lg" type="button">
-             Newsletter
-           </button></a>-->
           </div><!--end floating_title-->
-
         </div>
     </div>
 
@@ -30,37 +23,22 @@
   <div class="gradient_container">
     <div class="middle">
         <div class="container">
-            <div class="col-md-4 content focuslist">
-              <div class="box_info row">
-                    <span class="dashicons dashicons-networking fp-icons"></span>
-                    <h2 class="middletitle">What is your vision?</h2>
-                    <p>We'll help you build it.
-                    </p>
+            <div class="row">
+              <div class="col-xs-12">
 
+                <h2 class="text-center red">This Week's Actions</h2>
+                <p class="text-center">Every part of the progressive ecosystem is under threat by this President and Congress. The only way to win is by standing together, indivisible. These are the issues we think we can have the most impact on right now:</p>
 
-
-              </div><!--box_info-->
-            </div><!--col-md-4 content"-->
-            <div class="col-md-4 content focuslist">
-              <div class="box_info">
-                <span class="dashicons dashicons-location-alt fp-icons"></span>
-                <h2 class="middletitle">Consider your strategy.</h2>
-                <p>Next steps: blog, app, or email accounts.</p>
-
-                    <!--https://developer.wordpress.org/resource/dashicons/#clock-->
-
-                </div><!--box_info-->
-            </div><!--col-md-4 content"-->
-
-
-            <div class="col-md-4 content focuslist">
-              <div class="box_info">
-                <span class="dashicons dashicons-groups fp-icons"></span>
-                <h2 class="middletitle">Plan for the future.</h2>
-                <p>Get your social media and SEO results.</p>
-
-              </div><!--box_info-->
-            </div><!--col-md-4 content-->
+              </div>
+            </div>
           </div><!--container-->
-        </div><!--"middle"-->
+
+        <div class="container">
+          <div class="row">
+            <?php get_template_part( 'carousel', 'test' ); ?>
+          </div>
+        </div>
+      </div><!--"middle"-->
+    </div>
+
 <?php get_footer(); ?>

@@ -77,6 +77,10 @@ template {
   font-family: 'Montserrat';
   src: url('fonts/montserrat/Montserrat-Bold.otf')
 }
+@font-face {
+    font-family: 'Montserrat-reg';
+    src: url('fonts/montserrat/Montserrat-Regular.otf');
+}
 /*---- global styles -------*/
 h1, h2, h3, h4, h5{
     font-family: 'Montserrat','Helvetica Neue', sans-serif;
@@ -98,12 +102,12 @@ strong { font-family: "Montserrat", "Helvetica Neue", sans-serif; font-size: 18p
     text-transform: uppercase;
     font-family: "Montserrat", "Helvetica Neue", sans-serif;
 }
-
 img.img-fluid {
     width: initial;
     max-width: 100%;
     height: auto;
 }
+.red { color: #c32313; }
 
 /* ---------- announcement top -----------*/
 .top {
@@ -206,33 +210,8 @@ img.custom-logo {
   }
 
 /*--Front Page--*/
-.box_info {
-    border-width: 1px;
-    border-color: #cccccc;
-    border-style: solid;
-    min-height: 300px;
-    padding: 30px 5px;
-    margin-top: 20px;
-    padding-left: 20px;
-}
-h2.middletitle { padding-bottom:10px;text-align:center; }
-.middle .container .focuslist p {
-    font-size: 1.5em;
-    font-family: sans-serif;
-    font-weight: 100;
-    line-height: 1.75;
-    list-style: none;
-    letter-spacing:1px;
-    text-align: center;
-}
-.middle .container .col-md-4 p::first-letter {
-    font-size:120%;
-    color:#c04d4a;
-}
 
 .middle .container {
-    background-color: #FFF;
-    min-height: 300px;
     padding-bottom: 20px;
 }
 .bottom {
@@ -454,6 +433,15 @@ button.btn.btn-primary.web:hover {
 
 }
 /* footer */
+.bottom {
+    background: #1a2a4e;
+}
+.bottom h3 {
+    color: #f2f2f2;
+    font-family: 'Montserrat-reg', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
 ul.nav.nav-pills.nav-stacked.social.social-menu {
     margin-top: 1.2em;
 }

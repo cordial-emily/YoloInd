@@ -55,7 +55,7 @@
 
 </footer>
 
-  </div><!--end gradient_container-->
+
   <?php wp_footer(); ?>
 </body>
 </html>
