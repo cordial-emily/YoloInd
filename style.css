@@ -588,11 +588,6 @@ span.dashicons.dashicons-clock {
   .banner .container {
     min-height: 260px;
   }
-	.subcontainer {
-		background-image: url('images/icons/banner.4.6.jpg');
-        background-position:top center;
-        background-repeat: no-repeat;
-	}
 	.subcontainer img{
 		margin-right: 50px;
 	}

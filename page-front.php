@@ -6,14 +6,21 @@
     <div class="banner">
         <div class="container subcontainer">
 
-          <div class="floating_title jumbotron">
+          <div class="floating_title jumbotron container-fluid">
             <h1>RESISTING THE TRUMP AGENDA</h1>
             <p>Concerned citizens of Yolo County care about national issues and we are getting active. Get involved today.</p>
-            <h4 class="text-center">Sign up for our:</h4>
+            <div class="col-xs-12 text-center">
+              <h4 class="text-center">Sign up for our:</h4>
+              <a class="text-center" href="http://facebook.us14.list-manage2.com/subscribe?u=c0cc03e7f31bbe923efd397fa&id=f4243dace0"><button id="singlebutton" name="singlebutton" class="btn btn-default btn-lg" type="button">
+               Newsletter
+              </button></a>
+              <!--<button id="singlebutton" name="singlebutton" class="btn btn-primary">Next Step!</button> -->
+            </div>
+            <!--<h4 class="text-center">Sign up for our:</h4>
 
             <a class="text-center" href="http://facebook.us14.list-manage2.com/subscribe?u=c0cc03e7f31bbe923efd397fa&id=f4243dace0"><button class="btn btn-default btn-lg" type="button">
              Newsletter
-            </button></a>
+           </button></a>-->
           </div><!--end floating_title-->
 
         </div>
