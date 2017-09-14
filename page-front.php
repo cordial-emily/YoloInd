@@ -24,7 +24,7 @@
     <div class="middle">
         <div class="container">
             <div class="row">
-              <div class="col-xs-12">
+              <div class="col-xs-12 jumbotron">
 
                 <h2 class="text-center red">This Week's Actions</h2>
                 <p class="text-center">Every part of the progressive ecosystem is under threat by this President and Congress. The only way to win is by standing together, indivisible. These are the issues we think we can have the most impact on right now:</p>
