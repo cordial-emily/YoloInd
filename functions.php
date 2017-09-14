@@ -108,7 +108,7 @@ function create_posttype() {
       'public' => true,
       'has_archive' => true,
       'rewrite' => array( 'slug' => 'slides'),
-      'supports' => array('title', 'thumbnail')
+      'supports' => array('title', 'editor', 'thumbnail')
     )
   );
 }

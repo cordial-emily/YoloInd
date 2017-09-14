@@ -36,6 +36,10 @@
        <?php endif; ?>
        <?php $url = wp_get_attachment_url( get_post_thumbnail_id() ); ?>
              <img src="<?php echo $url; ?>" alt="<?php the_title(); ?>">
+             <div class="carousel-caption">
+               <h4><?php the_title();?></h4>
+               <p><?php the_content();?></p>
+              </div>
          </div>
    <?php endwhile; ?>
  <?php endif; ?>

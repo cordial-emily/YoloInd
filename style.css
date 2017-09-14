@@ -291,6 +291,17 @@ img.custom-logo {
   height:100px;
   width: 100%;
 }
+/* carousel slider */
+.carousel .item {
+  height: 500px;
+}
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
 /* display posts */
 .post {
   padding: 0px 60px 48px;
