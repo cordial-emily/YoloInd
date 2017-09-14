@@ -24,9 +24,12 @@
               <br>
               <h3>Menu</h3>
                   <?php wp_nav_menu( $args = array(
+                    'depth' => 2,
                     'container' => 'ul',
                     'menu_class'=> 'nav nav-pills nav-stacked',
-                    'theme_location' => 'footer'
+                    'theme_location' => 'footer',
+                    'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                    'walker'            => new WP_Bootstrap_Navwalker()
                   )); ?>
                   <br>
                   </br>

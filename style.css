@@ -449,7 +449,20 @@ ul.nav.nav-pills.nav-stacked.social li p a span.dashicons {
   font-size: 3em;
   margin-right: 30px;
 }
-.bottom .nav-pills>li>a { font-weight: 600; color: #8d9397; font-size: 20px; }
+.bottom .nav-pills>li>a { font-weight: 600; color: #efefef; font-size: 20px; }
+.bottom .row ul.nav.nav-pills li.menu-item a {
+    font-family: "Montserrat", "Helvetica Neue", sans-serif;
+    color: #e2dbdb;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    background: transparent;
+    min-height: 35px;
+    padding: 15px;
+    border-radius: 0px;
+}
+.bottom .row ul.nav.nav-pills li.menu-item a:hover {
+    background: #4a516c;
+}
 /* page_blog-posts */
 span.dashicons.dashicons-clock {
     margin: -2px;
