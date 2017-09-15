@@ -301,7 +301,57 @@ img.custom-logo {
     left: 0;
     min-height: 500px;
 }
-
+div#myCarousel {
+    max-width: 1118px;
+    margin: 0 auto;
+}
+ol.carousel-indicators {
+    background: #1a2a4e;
+}
+a.left.carousel-control {
+    display: none;
+}
+a.right.carousel-control {
+    display: none;
+}
+.carousel-indicators {
+    left: 0px;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 0px;
+    left: 80%;
+    z-index: 15;
+    width: 20%;
+    padding-left: 0;
+    margin-left: 0%;
+    text-align: center;
+    list-style: none;
+    height: 100%;
+}
+ol {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.carousel-indicators .active {
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    background-color: #c1231e;
+}
+.carousel-indicators li {
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 1px;
+    text-indent: 0px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0,0,0,0);
+    border-bottom: 1px solid #fff;
+    border-radius: 2px;
+    color: #f2f2f2;
+}
 /* display posts */
 .post {
   padding: 0px 60px 48px;
