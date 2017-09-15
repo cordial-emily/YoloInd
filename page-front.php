@@ -42,7 +42,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 jumbotron">
-              <h4 class="red text-center">These actions are updated throughout the week.
+              <h4 class="red text-center">These actions are updated throughout the month.
 Learn more about how we make decisions about which issues to prioritize here.</h4>
             </div>
           </div>
