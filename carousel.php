@@ -13,13 +13,12 @@
  $slides = new WP_Query( $args );
 
  if( $slides->have_posts() ): ?>
- <div class="row">
-   <div class="col-xs-12">
+
        <!--Twitter bootstrap Photo carrousel-->
 
 
 
-   <div id="myCarousel" class="carousel slide center-block" data-ride="carousel" >
+<div id="myCarousel" class="carousel slide center-block" data-ride="carousel" >
 
      <!-- Indicators -->
      <ol class="carousel-indicators">
@@ -62,5 +61,6 @@
          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
          <span class="sr-only">Next</span>
      </a>
-   </div>
- </div><!-- carrousel ends here -->
+     
+   </div> <!-- carrousel-inner ends here -->
+</div><!-- id="myCarousel" -->
