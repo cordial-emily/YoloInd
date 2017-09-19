@@ -5,6 +5,15 @@
     <div class="bottom">
         <div class="container">
           <div class="row">
+            <div class="col-xs-4">
+            </div>
+            <div class="col-xs-4 jumbotron">
+              <?php get_template_part( 'logo'); ?>
+            </div>
+            <div class="col-xs-4">
+            </div>
+          </div>
+          <div class="row">
             <div class="col-md-4">
                 <br>
                 </br>
