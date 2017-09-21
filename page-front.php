@@ -48,6 +48,25 @@ Learn more about how we make decisions about which issues to prioritize here.</h
           </div>
         </div>
 
+        <div class="container blue-bg local-info">
+          <div class="row">
+            <div class="col-sm-6 jumbotron">
+              <h1>ONE <small>OF</small> THOUSANDS <small>OF</small> GROUPS</h1>
+              <p>Yolo Indivisible is located in Yolo county in Northern California. It's time for us to make our voice heard.</p>
+            </div>
+            <div class="col-sm-6">
+              <img class="img-fluid" src="<?php bloginfo('template_url') ?>/images/icons/yolo-county.png" alt="location of Yolo County">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 jumbotron">
+
+            </div>
+          </div>
+        </div>
+
       </div><!--"middle"-->
     </div>
 

@@ -365,6 +365,19 @@ ol {
 .carousel-caption p {
     font-size: 13px;
 }
+
+/* front page location section */
+.blue-bg { background: #263657; }
+.local-info h1 {
+    color: #fff;
+}
+.local-info p {
+    color: #ccc;
+}
+.container.blue-bg.local-info {
+    width: 100%;
+}
+
 /* display posts */
 .post {
   padding: 0px 60px 48px;
@@ -381,139 +394,6 @@ footer#footer { background-color:#333; }
 footer#footer .row p.text-center { color: #fff; }
 footer#footer h4 { position: relative; display: block; padding: 15px 15px 10px; color: #fff;}
 
-
-/* --------- cv web portfolio section --------------- */
-button.btn.btn-primary.web {
-    padding: 0px 0px;
-    color: #fff;
-    background-color: #428bca;
-    border: 3px solid #898e6f;
-    border-radius: 0px;
-    box-shadow: rgb(0, 0, 0) 0px 0px 1px 0px;
-    overflow: hidden;
-    min-width: 130px;
-    min-height: 130px;
-    position: relative;
-}
-button span.webtitle.first{}
-button span.webtitle {
-  position: absolute;
-  color: #333;
-  background: rgba(255, 255, 255, 0.55);
-  width: 130px;
-  height: 65px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  text-shadow: 2px 2px 3px #fff, -3px 3px 5px #fff;
-  z-index: 1;
-  left:0px;
-}
-div.mag-ico {
-    position: absolute;
-    z-index: 1;
-    left: 32%;
-    bottom: 20%;
-}
-div.mag-ico::after {
-  position: absolute;
-  color: #333;
-  z-index: 1;
-  left: 32%;
-  bottom: 10%;
-  display: block;
-  content: url('images/icons/magnifying_glass.2.svg');
-}
-img.detail { position: absolute; z-index: 0; top: 0px; left: 0px;}
-img.detail:hover {
-    vertical-align: top;
-}
-img.port {
-    border: 5px solid #565555;
-    border-radius: 10px;
-    float: left;
-}
-img.port.pfull {
-    width: 50%;
-}
-img.port.pmobile {
-    width: 16.8%;
-    margin: auto 3%;
-}
-h4.modal-title {
-    text-align: center;
-    font-weight: 400;
-}
-h4.modal-title:first-letter {
-    font-size: 140%;
-}
-.modal-content {
-    border: 3px solid #565555;
-    border-radius: 0px;
-}
-.modal-header, .modal-footer  {
-    background-color: #d1d4c6;
-}
-div#learnmore {
-    float: right;
-    margin-left: 2%;
-}
-div#modalBody {
-    min-height: 200px;
-}
-p.portls {
-    margin-left: 53%;
-}
-button.btn.btn-primary {
-    background-color: #878a80;
-    border: 1px solid #878a80;
-}
-.btn:focus, .btn:active:focus, .btn.active:focus {
-    outline: thin dotted;
-    outline: 0px auto -webkit-focus-ring-color;
-    outline-offset: 0px;
-}
-.temp-top {
-    margin-top: 200px;
-}
-#web .col-xs-2.webp {
-    padding-left: 5% !important;
-    padding-bottom: 5%;
-}
-button.btn.btn-default:hover {
-    background-color: #2b3a5b;
-    border: 0px;
-    color: #fff;
-}
-span.webtitle::first-letter {
-    font-size: 150%;
-}
-.row.printh p, .row.printh h2 {
-    text-align: center;
-}
-/* hover animation for web portfolio buttons */
-
-@keyframes bounceIn {
-  0% {
-    transform: scale(1);
-    /*opacity: 0;*/
-  }
-  60% {
-    transform: scale(1.2);
-    /*opacity: 1;*/
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-button.btn.btn-primary.web { -webkit-transform-style: preserve-3d; }
-button.btn.btn-primary.web:hover {
-    animation-duration: 1s;
-    animation-name: bounceIn;
-    -webkit-transform-style: preserve-3d;
-    border: 3px solid #000;
-
-}
 /* footer */
 .bottom {
     background: #1a2a4e;
