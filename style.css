@@ -377,6 +377,16 @@ ol {
 .container.blue-bg.local-info {
     width: 100%;
 }
+.local-info small {
+    color: #fff;
+    font-size: 40px;
+    line-height: 48px;
+    border-bottom: 7px solid #c32313;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 3px;
+}
 
 /* display posts */
 .post {

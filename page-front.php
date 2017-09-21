@@ -51,7 +51,7 @@ Learn more about how we make decisions about which issues to prioritize here.</h
         <div class="container blue-bg local-info">
           <div class="row">
             <div class="col-sm-6 jumbotron">
-              <h1>ONE <small>OF</small> THOUSANDS <small>OF</small> GROUPS</h1>
+              <h1>OUR GROUP <small>IS</small> ONE <small>OF</small> THOUSANDS</h1>
               <p>Yolo Indivisible is located in Yolo county in Northern California. It's time for us to make our voice heard.</p>
             </div>
             <div class="col-sm-6">
