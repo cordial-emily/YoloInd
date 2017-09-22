@@ -62,6 +62,19 @@ Learn more about how we make decisions about which issues to prioritize here.</h
         <div class="container">
           <div class="row">
             <div class="col-xs-12 jumbotron">
+              <?php
+    query_posts( array('posts_per_page'=>5, 'category_name'=>'Front Page') );
+    while ( have_posts() ) : the_post();
+?>
+    <h2><a href="<?php the_permalink(' ') ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+    <?php if ( has_post_thumbnail() ): // check for the featured image ?>
+    <a href="<?php the_permalink(' ') ?>" title="<?php the_title(); ?>" class="opacity"><?php the_post_thumbnail('thumbnail', array('class' => 'thumbnail')); ?></a> <hr> <!--echo the featured image-->
+<?php
+    endif;
+    the_excerpt(); // echo the excerpt
+    endwhile;
+    wp_reset_query(); // resets main query
+?>
 
             </div>
           </div>
