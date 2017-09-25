@@ -86,10 +86,11 @@ template {
   src: url('fonts/montserrat/Montserrat-Light.otf');
 }
 /*---- global styles -------*/
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5 {
     font-family: 'Montserrat','Helvetica Neue', sans-serif;
     font-style: normal;
     text-rendering: optimizeLegibility;
+    color: #192551;
 }
 h1 { font-size: 42px; }
 p {
@@ -417,6 +418,9 @@ footer#footer h4 { position: relative; display: block; padding: 15px 15px 10px; 
 /* footer */
 .bottom {
     background: #1a2a4e;
+}
+.bottom img.custom-logo {
+    height: 25px;
 }
 .bottom h3 {
     color: #f2f2f2;
