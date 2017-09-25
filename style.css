@@ -393,13 +393,13 @@ ol {
 .post {
   padding: 0px 60px 48px;
 }
-/*h2.post-title {
+h2.post-title {
     color: #c1231e;
     text-transform: uppercase;
     margin-bottom: 1rem;
     font-size: 22px;
     line-height: 26px;
-}*/
+}
 .post-exerpt {
   font-size: 14px;
   line-height: 20px;

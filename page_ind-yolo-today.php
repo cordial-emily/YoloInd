@@ -18,7 +18,7 @@
           <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
 
             <div class="post" >
-            <h2 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+            <h2 class="post-title"><a class="red" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
             <small class="text-muted"><span class="dashicons dashicons-clock"></span>&nbsp;<?php echo get_the_date( 'Y-m-d' ); ?></small>
             <p><?php the_content(); ?></p>
             </div>
