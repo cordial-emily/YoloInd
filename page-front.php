@@ -60,6 +60,9 @@ Learn more about how we make decisions about which issues to prioritize here.</h
           </div>
         </div>
         <div class="container container-w-space">
+          <div class="row">
+            <div class="col-sm-9">
+              <h2>Our Blog</h2>
 
               <!--// Define our WP Query Parameters -->
               <?php $the_query = new WP_Query( array('posts_per_page'=>5, 'category_name'=>'Front Page') ); ?>
@@ -70,11 +73,11 @@ Learn more about how we make decisions about which issues to prioritize here.</h
                 <div class="col-sm-2">
                   <a href="<?php the_permalink(' ') ?>" title="<?php the_title(); ?>" class="opacity"><?php the_post_thumbnail('thumbnail', array('class' => 'thumbnail')); ?></a>
                 </div>
-
-
-                <div class="col-sm-10">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-9">
                   <!--// Display the Post Title with Hyperlink -->
-                  <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+                  <h3><a class="red" href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
 
                   <!--// Display the Post Excerpt -->
                   <p><?php the_excerpt(__('(more…)')); ?></p>
@@ -89,7 +92,11 @@ Learn more about how we make decisions about which issues to prioritize here.</h
               wp_reset_postdata();
               ?>
 
-
+              </div>
+              <div class="col-sm-3">
+                <iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/291415955&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+              </div>
+            </div>
           </div>
         </div>
 
