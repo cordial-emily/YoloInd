@@ -59,7 +59,7 @@ Learn more about how we make decisions about which issues to prioritize here.</h
             </div>
           </div>
         </div>
-        <div class="container">
+        <div class="container container-w-space">
 
               <!--// Define our WP Query Parameters -->
               <?php $the_query = new WP_Query( array('posts_per_page'=>5, 'category_name'=>'Front Page') ); ?>

@@ -115,6 +115,7 @@ img.img-fluid {
     height: auto;
 }
 .red { color: #c32313; }
+.container-w-space { padding-top: 40px;}
 
 /* ---------- announcement top -----------*/
 .top {
