@@ -42,8 +42,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 jumbotron">
-              <h4 class="red text-center">These actions are updated throughout the month.
-Learn more about how we make decisions about which issues to prioritize here.</h4>
+              <h4 class="red text-center">These actions are updated throughout the month.</h4>
             </div>
           </div>
         </div>
@@ -52,7 +51,7 @@ Learn more about how we make decisions about which issues to prioritize here.</h
           <div class="row">
             <div class="col-sm-6 jumbotron">
               <h1>OUR GROUP <small>IS</small> ONE <small>OF</small> THOUSANDS</h1>
-              <p>Yolo Indivisible is located in Yolo county in Northern California. It's time for us to make our voice heard.</p>
+              <p>Yolo Indivisible is located in Yolo county in Northern California. It's time for us to make our voices heard.</p>
             </div>
             <div class="col-sm-6">
               <img class="img-fluid" src="<?php bloginfo('template_url') ?>/images/icons/yolo-county.png" alt="location of Yolo County">
@@ -61,7 +60,7 @@ Learn more about how we make decisions about which issues to prioritize here.</h
         </div>
         <div class="container container-w-space">
           <div class="row">
-            <div class="col-sm-9">
+            <div class="col-sm-6">
               <h2>Our Blog</h2>
 
               <!--// Define our WP Query Parameters -->
@@ -70,10 +69,8 @@ Learn more about how we make decisions about which issues to prioritize here.</h
               <!--// Start our WP Query -->
               <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
               <div class="row">
-                <div class="col-sm-2">
-                  <a href="<?php the_permalink(' ') ?>" title="<?php the_title(); ?>" class="opacity"><?php the_post_thumbnail('thumbnail', array('class' => 'thumbnail')); ?></a>
-                </div>
-                <div class="col-sm-1">
+                <div class="col-sm-3">
+                  <a href="<?php the_permalink(' ') ?>" title="<?php the_title(); ?>" class="opacity"><?php the_post_thumbnail('thumbnail', array('class' => 'thumbnail img-fluid')); ?></a>
                 </div>
                 <div class="col-sm-9">
                   <!--// Display the Post Title with Hyperlink -->
@@ -93,8 +90,21 @@ Learn more about how we make decisions about which issues to prioritize here.</h
               ?>
 
               </div>
-              <div class="col-sm-3">
+              <div class="col-sm-6 events">
+                <?php echo do_shortcode("[ecs-list-events excerpt='true' eventdetails='true' thumb='true' thumbwidth='300' thumbheight='150' thumbsize='large' contentorder='thumbnail, date, title, excerpt, venue']"); ?>
+
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <h2>Our Podcast</h2>
                 <iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/291415955&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+              </div>
+              <div class="col-sm-6">
+
+
               </div>
             </div>
           </div>

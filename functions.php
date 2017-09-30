@@ -129,3 +129,9 @@ function simple_bootstrap_custom_logo_setup() {
     add_theme_support( 'custom-logo', $defaults );
 }
 add_action( 'after_setup_theme', 'simple_bootstrap_custom_logo_setup' );
+
+// Limiting Excerpt Length To Number of Characters
+function custom_excerpt_length( $length ) {
+	return 14;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );

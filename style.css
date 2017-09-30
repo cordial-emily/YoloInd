@@ -90,7 +90,6 @@ h1, h2, h3, h4, h5 {
     font-family: 'Montserrat','Helvetica Neue', sans-serif;
     font-style: normal;
     text-rendering: optimizeLegibility;
-    color: #192551;
 }
 h1 { font-size: 42px; }
 p {
@@ -98,7 +97,12 @@ p {
     font-size: 16px;
     line-height: 1.6;
 }
-.jumbotron { background: transparent; }
+span {
+    font-family: 'Montserrat-Light';
+    font-size: 12px;
+    line-height: 1.6;
+}
+.jumbotron { background: transparent; border-radius: 2px !important; }
 .jumbotron p { font-size: 16px; }
 strong { font-family: "Montserrat", "Helvetica Neue", sans-serif; font-size: 18px; }
 .btn {
@@ -409,6 +413,25 @@ h2.post-title a {
 }
 img.thumbnail.wp-post-image {
     margin-top: 20px;
+}
+/* events list on front page */
+.events ul.ecs-event-list {
+    width: 100%;
+}
+ul.ecs-event-list li.ecs-event img.attachment-150x150.size-150x150.wp-post-image {
+    width: 50%;
+    /*float: left;*/
+    margin-right: 2%;
+}
+ul.ecs-event-list li.ecs-event {
+    min-height: 150px;
+    width: 100%;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eee;
+}
+span.duration.time {
+    display: block;
 }
 /* footer */
 footer#footer { background-color:#333; }
