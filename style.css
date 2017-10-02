@@ -264,7 +264,6 @@ img.custom-logo {
     padding: 0px;
     margin: 0px;
     width: 50em;
-
 }
 .send {
     display: inline-block;
@@ -417,10 +416,10 @@ img.thumbnail.wp-post-image {
 /* events list on front page */
 .events ul.ecs-event-list {
     width: 100%;
+    padding-left: 0px;
 }
 ul.ecs-event-list li.ecs-event img.attachment-150x150.size-150x150.wp-post-image {
     width: 50%;
-    /*float: left;*/
     margin-right: 2%;
 }
 ul.ecs-event-list li.ecs-event {
@@ -432,6 +431,9 @@ ul.ecs-event-list li.ecs-event {
 }
 span.duration.time {
     display: block;
+}
+li.ecs-event img.wp-post-image {
+    border: 10px solid #263657;
 }
 /* footer */
 footer#footer { background-color:#333; }
