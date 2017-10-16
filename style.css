@@ -429,11 +429,22 @@ ul.ecs-event-list li.ecs-event {
     margin-bottom: 40px;
     border-bottom: 1px solid #eee;
 }
+.container .row h2 {
+    margin-bottom: 40px;
+}
+.thumbnail {
+    border: 0px solid #ddd;
+    border-radius: 0px;
+}
 span.duration.time {
     display: block;
 }
 li.ecs-event img.wp-post-image {
     border: 10px solid #263657;
+}
+li.ecs-event p, .blog-post p {
+    color: #6e6e71;
+    font-size: 12px;
 }
 /* footer */
 footer#footer { background-color:#333; }

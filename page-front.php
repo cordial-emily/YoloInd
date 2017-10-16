@@ -74,7 +74,7 @@
 
                 <!--// Start our WP Query -->
                 <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-                <div class="row">
+                <div class="row blog-post">
                   <div class="col-sm-3">
                     <a href="<?php the_permalink(' ') ?>" title="<?php the_title(); ?>" class="opacity"><?php the_post_thumbnail('thumbnail', array('class' => 'thumbnail img-fluid')); ?></a>
                   </div>
