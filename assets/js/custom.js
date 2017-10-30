@@ -9,7 +9,7 @@ window.onload = function() {
   /* This prints a hello message in the console. (Don't forget to check. :) ) ************************************************/
 
   function sayHelloInTheConsole() {
-      console.log("Hey there!\nThanks for checking my console.\n\nIf you'd like to see some JS I've written, go to: http://cordial-emily.com/js/custom.js. \n\nPlease contact me with questions, comments, and work opportunities. Thanks! \n\nEmail: Cordial.Emily@gmail.com");
+      console.log("Hey there!\nThanks for checking my console.\n");
   }
   sayHelloInTheConsole();
 

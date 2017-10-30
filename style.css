@@ -178,6 +178,9 @@ ul.dropdown-menu {
     background-color: #4a516c;
     color: #fff;
 }
+button.navbar-toggle {
+    color: #ffffff;
+}
 /* --------- logo ---------------- */
 img.custom-logo {
     float: left;

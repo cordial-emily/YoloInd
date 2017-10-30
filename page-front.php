@@ -104,7 +104,15 @@
                 <iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/291415955&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
               </div>
               <div class="col-sm-6">
-
+                <h2>Our Tweets</h2>
+                <a class="twitter-timeline"
+                href="https://twitter.com/indivisibleyolo?ref_src=twsrc%5Etfw"
+                data-tweet-limit="2"
+                data-aria-polite="assertive"
+                data-show-replies="false">
+                Tweets by IndivisibleYolo</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+                </script>
 
               </div>
             </div>
