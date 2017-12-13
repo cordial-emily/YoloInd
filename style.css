@@ -148,7 +148,7 @@ img.img-fluid {
     display:block;
 }
 .current-menu-item{
-    background-color: #ded5c5;
+    /*background-color: #ded5c5;*/
     padding: 0 10px;
 }
 .nav.navbar-nav a.dropdown-toggle:active, .nav.navbar-nav a.dropdown-toggle:focus, .nav.navbar-nav a.dropdown-toggle:visited {
