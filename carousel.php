@@ -36,6 +36,7 @@
      </ol>
  <!-- Wrapper for slides -->
  <div class="carousel-inner" role="listbox">
+ <?php $index=0; ?>
  <?php while( $slides->have_posts() ) : $slides->the_post(); $index++ ?>
 
        <?php if ( $index == 1 ): ?>
@@ -61,6 +62,6 @@
          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
          <span class="sr-only">Next</span>
      </a>
-     
+
    </div> <!-- carrousel-inner ends here -->
 </div><!-- id="myCarousel" -->
