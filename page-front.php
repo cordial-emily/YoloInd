@@ -62,7 +62,7 @@
           <div class="row">
             <div class="col-sm-6 events">
               <h2>Upcoming Events</h2>
-              <?php echo do_shortcode("[ecs-list-events excerpt='true' eventdetails='true' thumb='true' thumbwidth='300' thumbheight='400' thumbsize='large' contentorder='thumbnail, date, title, excerpt, venue' limit='2']" ); ?>
+              <?php echo do_shortcode("[ecs-list-events excerpt='true' eventdetails='true' thumb='true' thumbwidth='300' thumbheight='400' thumbsize='large' contentorder='thumbnail, date, title, excerpt, venue' limit='3']" ); ?>
 
 
               </div>
