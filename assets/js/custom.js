@@ -1,10 +1,5 @@
 window.onload = function() {
 
-  /* This replaces the @ symbol in the Events Calendar list on the front page with 2 spaces */
-  jQuery(document).ready(function(){
-  jQuery('li.ecs-event').html(jQuery('li.ecs-event').html().replace("@",",  "));
-  jQuery('li.ecs-event').html(jQuery('li.ecs-event').html().replace("@",",  "));
-  });
 
   /* This prints a hello message in the console. (Don't forget to check. :) ) ************************************************/
 
