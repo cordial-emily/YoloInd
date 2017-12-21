@@ -449,6 +449,16 @@ li.ecs-event p, .blog-post p {
     color: #6e6e71;
     font-size: 12px;
 }
+/* default template page */
+.main-content ul {
+    list-style-type: initial;
+}
+.main-content ul li {
+    font-family: 'Montserrat-Light';
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 .8em;
+}
 /* footer */
 footer#footer { background-color:#333; }
 footer#footer .row p.text-center { color: #fff; }
