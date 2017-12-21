@@ -459,6 +459,15 @@ li.ecs-event p, .blog-post p {
     line-height: 1.6;
     margin: 0 0 .8em;
 }
+.main-content h3, .main-content h4, .main-content h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main-content h5 {
+    color: #475588;
+    font-size: 17px;
+    font-style: italic;
+  }
 /* footer */
 footer#footer { background-color:#333; }
 footer#footer .row p.text-center { color: #fff; }
