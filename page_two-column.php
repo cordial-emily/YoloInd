@@ -30,6 +30,13 @@
 
         </div>
       </div>
+      <div class="row">
+        <hr class="half-rule">
+
+        <?php get_template_part( 'carousel', 'test' ); ?>
+
+        <hr class="half-rule">
+      </div>
     </div>
 
   </div>

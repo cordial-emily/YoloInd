@@ -452,6 +452,7 @@ li.ecs-event p, .blog-post p {
 /* default template page */
 .main-content ul {
     list-style-type: initial;
+    margin-bottom: 20px;
 }
 .main-content ul li {
     font-family: 'Montserrat-Light';
