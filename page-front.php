@@ -98,13 +98,14 @@
             </div>
           </div>
 
-          <div class="container blue-bg">
+          <div class="container blue-bg local-info">
             <div class="row">
             <div class="col-sm-6">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/JnOFP43rFX0?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+              <a href="https://www.facebook.com/beth.foraker.7/posts/10155847273483832"><img class="img-fluid" src="<?php bloginfo('template_url') ?>/images/icons/love-letter.1.png" alt="YoloIndivisible love letter"></a>
             </div>
             <div class="col-sm-6 jumbotron">
-              <h1>Someone <small>wrote </small>us a <small>love </small>letter...</h1>
+              <h1>THIS <small>is a </small>LETTER WRITTEN FROM <small>the</small> HEART</h1>
+              <p>...from a local Indivisible Yolo </p>
             </div>
           </div>
           </div>
