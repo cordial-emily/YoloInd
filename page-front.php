@@ -104,7 +104,7 @@
               <a href="https://www.facebook.com/beth.foraker.7/posts/10155847273483832"><img class="img-fluid" src="<?php bloginfo('template_url') ?>/images/icons/love-letter.1.png" alt="YoloIndivisible love letter"></a>
             </div>
             <div class="col-sm-6 jumbotron">
-              <h1>WE RECIEVED <small> A </small>LOVE LETTER...</h1>
+              <h1>WE RECIEVED <small>A</small> LOVE LETTER...</h1>
               <p>...from a local Indivisible Yolo member. <a href="https://www.facebook.com/beth.foraker.7/posts/10155847273483832">Read more...</a> </p>
             </div>
           </div>
