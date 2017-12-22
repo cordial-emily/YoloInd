@@ -48,7 +48,7 @@
               </br>
               <h3>Contact us</h3>
               <ul class="nav nav-pills nav-stacked social">
-                <li><p><a href="mailto:contact@paralleldesign.net?Subject=Parallel%Design%Contact:%Hello!" target="_top"><span class="dashicons dashicons-email-alt"></span></a></p></li>
+                <li><p><a href="mailto:indivisibleyolo@gmail.com?Subject=Indivisible%Yolo%Contact:%Hello!" target="_top"><span class="dashicons dashicons-email-alt"></span></a></p></li>
                 <li><p><a href="https://twitter.com/ContactParallel"></a></p></li>
               </ul>
               <br>
