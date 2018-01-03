@@ -148,7 +148,6 @@ img.img-fluid {
     display:block;
 }
 .current-menu-item{
-    /*background-color: #ded5c5;*/
     padding: 0 10px;
 }
 .nav.navbar-nav a.dropdown-toggle:active, .nav.navbar-nav a.dropdown-toggle:focus, .nav.navbar-nav a.dropdown-toggle:visited {
@@ -622,6 +621,9 @@ span.dashicons.dashicons-clock {
 			Media Queries for screen less than  (600px)
 ****************************************** */
 @media screen and (max-width: 600px) {
+  .navbar-toggle .glyphicon {
+    font-size: 25px;
+  }
   img.custom-logo {
     height: 10px;
   }
@@ -678,6 +680,9 @@ span.dashicons.dashicons-clock {
     }
 }
 @media screen and (max-width: 480px) {
+  .navbar-toggle .glyphicon {
+    font-size: 25px;
+  }
   .col-xs-2 {
       width: 60%;
   }
