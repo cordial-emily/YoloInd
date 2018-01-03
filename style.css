@@ -611,6 +611,12 @@ span.dashicons.dashicons-clock {
     height: 130px;
     padding-top: 8%;
   }
+  .carousel .item {
+    height: 300px !important;
+  }
+  .item img {
+    min-height: 300px !important;
+   }
 }
 /* ******************************************
 			Media Queries for screen less than  (600px)
@@ -664,6 +670,12 @@ span.dashicons.dashicons-clock {
     .col-xs-2 {
         width: 40%;
     }
+    .carousel .item {
+      height: 300px !important;
+    }
+    .item img {
+      min-height: 300px !important;
+    }
 }
 @media screen and (max-width: 480px) {
   .col-xs-2 {
@@ -677,6 +689,12 @@ span.dashicons.dashicons-clock {
       height: 130px;
       padding-top: 8%;
   }
+  .carousel .item {
+    height: 300px !important;
+  }
+  .item img {
+    min-height: 300px !important;
+   }
 }
 /* print styles *********************************/
 @media print {
