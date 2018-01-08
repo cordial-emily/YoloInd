@@ -156,11 +156,19 @@ img.img-fluid {
     text-decoration: none;
     display:block;
 }
-.current-menu-item{
+.bottom .current-menu-item{
     padding: 0 10px;
+}
+.current-menu-item {
+    padding: 0 0px;
+    background: #303e6d;
 }
 .nav.navbar-nav a.dropdown-toggle:active, .nav.navbar-nav a.dropdown-toggle:focus, .nav.navbar-nav a.dropdown-toggle:visited {
     background-color: #192551;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #1a2651;
+    border-color: #1a2651;
 }
 .nav.navbar-nav a.dropdown-toggle:hover {
     background-color: #4a516c;
