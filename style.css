@@ -136,6 +136,15 @@ img.img-fluid {
 .announcement-widget-content {
     padding: 15px 20px 5px;
 }
+.announcement-widget-content a {
+    color: #fffef6;
+    text-transform: uppercase;
+    background: #a92a27;
+    padding: 3px 8px;
+}
+.announcement-widget-content a:hover {
+    background: #982e2b;
+}
 /* ---------- navigation -----------*/
 .top .navbar-brand {
     height: 50px;
