@@ -6,7 +6,7 @@
 
    <div class="bs-docs-featurette main-content-width-wrapper">
     <div class="container">
-      <h2 class="bs-docs-featurette-title" style="padding: 48px 60px 0px;"><?php echo get_the_title(); ?></h2>
+      <h2 class="bs-docs-featurette-title" style="padding: 48px 60px 0px 0px;"><?php echo get_the_title(); ?></h2>
 
       <hr class="half-rule">
 
