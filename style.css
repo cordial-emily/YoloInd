@@ -577,19 +577,41 @@ span.dashicons.dashicons-clock {
     line-height: 2;
   }
   .banner .container {
-    padding: 132px 30px 30px 40px !important;
+    padding: 162px 30px 30px 40px !important;
+    min-height: 1000px;
   }
   .col-md-12.cvm {
-    height: 700px;
-  }
-  .banner .container {
-      min-height: 700px;
+    height: 800px;
   }
   .col-sm-6.jumbotron {
     padding: 300px;
   }
+  .jumbotron p {
+    margin-bottom: 45px;
+    margin-top: 30px;
+  }
   button#singlebutton {
     font-size: 28px;
+    padding: 25px;
+  }
+  .container .row h2 {
+    margin-bottom: 60px;
+    font-size: 50px;
+  }
+  .jumbotron .h1, .jumbotron h1 {
+    font-size: 93px;
+  }
+  .banner .container p {
+    font-size: 22px;
+    line-height: 31px;
+  }
+  h4 {
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+  .floating_title {
+    padding: 65px;
+    max-width: 1181px;
   }
 }
 @media (min-width: 1771px) and (max-width: 2200px) {
@@ -607,16 +629,39 @@ span.dashicons.dashicons-clock {
     line-height: 2;
   }
   .banner .container {
-    padding: 132px 30px 30px 40px !important;
+    padding: 82px 30px 30px 40px !important;
   }
   .col-md-12.cvm {
     height: 700px;
   }
   .banner .container {
-      min-height: 700px;
+      min-height: 800px;
   }
   .col-sm-6.jumbotron {
     padding: 200px;
+  }
+  .jumbotron p {
+    margin-bottom: 45px;
+    margin-top: 30px;
+  }
+  button#singlebutton {
+    font-size: 28px;
+    padding: 25px;
+  }
+  .container .row h2 {
+    margin-bottom: 60px;
+    font-size: 50px;
+  }
+  .jumbotron .h1, .jumbotron h1 {
+    font-size: 83px;
+  }
+  .banner .container p {
+    font-size: 20px;
+    line-height: 29px;
+  }
+  h4 {
+    font-size: 28px;
+    letter-spacing: 1px;
   }
 }
 @media (min-width: 1478px) and (max-width: 1770px) {
@@ -637,7 +682,6 @@ span.dashicons.dashicons-clock {
       top: 0px;
       height: 130px;
       padding-top: 8%;
-      /*position: absolute;*/
     }
     .top-buffer { margin-top:25px; }
     .container.bea_border.cv {
