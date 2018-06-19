@@ -110,7 +110,7 @@
           </div>
           </div>
 
-          <div class="container">
+          <div class="container container-w-space">
             <div class="row">
               <div class="col-sm-6">
                 <h2>Our Podcast</h2>

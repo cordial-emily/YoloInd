@@ -218,6 +218,13 @@ img.custom-logo {
 .banner {
     min-height: 50px;
 }
+.banner {
+      background-image: url(images/icons/Indivisible-Yolo.jpg);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
 .banner .container {
     padding: 62px 30px 30px 40px;
 }
@@ -497,7 +504,6 @@ footer#footer { background-color:#333; }
 footer#footer .row p.text-center { color: #fff; }
 footer#footer h4 { position: relative; display: block; padding: 15px 15px 10px; color: #fff;}
 
-/* footer */
 .bottom {
     background: #1a2a4e;
 }
@@ -553,8 +559,80 @@ span.dashicons.dashicons-clock {
 
 /*------------------- MEDIA QUERIES ----------------------*/
 /********big screen**********/
-
-@media screen and (max-width: 3500px) {
+@media (min-width: 2201px) and (max-width: 8000px) {
+  .container {
+    width: 1570px;
+  }
+  nav.container {
+    height: 60px;
+  }
+  img.custom-logo {
+    height: 25px;
+  }
+  #bs-example-navbar-collapse-1 ul#menu-main {
+    float: right;
+  }
+  #bs-example-navbar-collapse-1 a.dropdown-toggle {
+    font-size: 16;
+    line-height: 2;
+  }
+  .banner .container {
+    padding: 132px 30px 30px 40px !important;
+  }
+  .col-md-12.cvm {
+    height: 700px;
+  }
+  .banner .container {
+      min-height: 700px;
+  }
+  .col-sm-6.jumbotron {
+    padding: 300px;
+  }
+  button#singlebutton {
+    font-size: 28px;
+  }
+}
+@media (min-width: 1771px) and (max-width: 2200px) {
+  nav.container {
+    height: 60px;
+  }
+  img.custom-logo {
+    height: 25px;
+  }
+  #bs-example-navbar-collapse-1 ul#menu-main {
+    float: right;
+  }
+  #bs-example-navbar-collapse-1 a.dropdown-toggle {
+    font-size: 16;
+    line-height: 2;
+  }
+  .banner .container {
+    padding: 132px 30px 30px 40px !important;
+  }
+  .col-md-12.cvm {
+    height: 700px;
+  }
+  .banner .container {
+      min-height: 700px;
+  }
+  .col-sm-6.jumbotron {
+    padding: 200px;
+  }
+}
+@media (min-width: 1478px) and (max-width: 1770px) {
+  nav.container {
+    height: 60px;
+  }
+  img.custom-logo {
+    height: 25px;
+  }
+  #bs-example-navbar-collapse-1 ul#menu-main {
+    float: right;
+  }
+  #bs-example-navbar-collapse-1 a.dropdown-toggle {
+    font-size: 16;
+    line-height: 2;
+  }
     button span.webtitle {
       top: 0px;
       height: 130px;
@@ -576,39 +654,57 @@ span.dashicons.dashicons-clock {
       padding-left: 5%;
       padding-right: 5%;
     }
-	.banner {
-        background-image: url(images/icons/Indivisible-Yolo.jpg);
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-	}
-	.subcontainer img {
-		margin-right: 50px;
-	}
+  	.subcontainer img {
+  		margin-right: 50px;
+  	}
     body .banner article svg {
         top: -600px;
         position: relative;
         opacity: 0.5;
         margin-left: 0%;
     }
+    .col-sm-6.jumbotron {
+      padding: 180px;
+    }
 }
-
-@media screen and (max-width: 1200px) {
+@media (min-width: 1278px) and (max-width: 1477px) {
+  nav.container {
+    height: 60px;
+  }
+  img.custom-logo {
+    height: 25px;
+  }
+  #bs-example-navbar-collapse-1 ul#menu-main {
+    float: right;
+  }
+  #bs-example-navbar-collapse-1 a.dropdown-toggle {
+    font-size: 16;
+    line-height: 2;
+  }
+  button span.webtitle {
+    top: 0px;
+    height: 130px;
+    padding-top: 8%;
+  }
+  .col-sm-6.jumbotron {
+    padding: 150px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1277px) {
   button span.webtitle {
     top: 0px;
     height: 130px;
     padding-top: 8%;
   }
 }
-@media screen and (max-width: 991px) {
+@media (min-width: 781px) and (max-width: 991px) {
   button span.webtitle {
     top: 0px;
     height: 130px;
     padding-top: 8%;
   }
 }
-@media screen and (max-width: 780px) {
+@media (min-width: 681px) and (max-width: 780px) {
   .spacer {
       padding-left: 10%;
   }
@@ -618,7 +714,7 @@ span.dashicons.dashicons-clock {
     padding-top: 6%;
   }
 }
-@media screen and (max-width: 680px) {
+@media (min-width: 481px) and (max-width: 680px) {
   .spacer {
       padding-left: 10%;
   }
@@ -633,69 +729,65 @@ span.dashicons.dashicons-clock {
   .item img {
     min-height: 300px !important;
    }
+   .navbar-toggle .glyphicon {
+     font-size: 25px;
+   }
+   img.custom-logo {
+     height: 10px;
+   }
+   button span.webtitle {
+     top: 0px;
+     height: 130px;
+     padding-top: 7%;
+   }
+   .spacer {
+       padding-left: 10%;
+   }
+   button.btn.btn-primary.web { margin-bottom: 25px; }
+   .container.bea_border.cv {
+     min-height: 350px;
+     padding-bottom: 0px;
+   }
+   .container.bea_border.cv {
+     background-image: url(images/icons/banner.2d.500.png);
+     max-width: 100%;
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+   }
+   .col-md-12.cvm {
+     height: 290px;
+   }
+   h4.cvmenu ul li a {
+     font-size: 16px;
+   }
+   .banner .container {
+     min-height: 260px;
+   }
+  .subcontainer img{
+    margin-right: 50px;
+  }
+   .floating_title h5{
+   background-color: rgba(219,210,195,0.7);
+   padding: 2%;
+  }
+  body .banner article svg {
+   top: -980px;
+   position: relative;
+   /* z-index: 5; */
+   opacity: 0.5;
+   margin-left: -40%;
+  }
+  .col-xs-2 {
+       width: 40%;
+  }
+  .carousel .item {
+     height: 300px !important;
+  }
+  .item img {
+     min-height: 300px !important;
+  }
 }
-/* ******************************************
-			Media Queries for screen less than  (600px)
-****************************************** */
-@media screen and (max-width: 600px) {
-  .navbar-toggle .glyphicon {
-    font-size: 25px;
-  }
-  img.custom-logo {
-    height: 10px;
-  }
-  button span.webtitle {
-    top: 0px;
-    height: 130px;
-    padding-top: 7%;
-  }
-  .spacer {
-      padding-left: 10%;
-  }
-  button.btn.btn-primary.web { margin-bottom: 25px; }
-  .container.bea_border.cv {
-    min-height: 350px;
-    padding-bottom: 0px;
-  }
-  .container.bea_border.cv {
-    background-image: url(images/icons/banner.2d.500.png);
-    max-width: 100%;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-  }
-  .col-md-12.cvm {
-    height: 290px;
-  }
-  h4.cvmenu ul li a {
-    font-size: 16px;
-  }
-  .banner .container {
-    min-height: 260px;
-  }
-	.subcontainer img{
-		margin-right: 50px;
-	}
-    .floating_title h5{
-    background-color: rgba(219,210,195,0.7);
-    padding: 2%;
-    }
-    body .banner article svg {
-        top: -980px;
-        position: relative;
-        /* z-index: 5; */
-        opacity: 0.5;
-        margin-left: -40%;
-		}
-    .col-xs-2 {
-        width: 40%;
-    }
-    .carousel .item {
-      height: 300px !important;
-    }
-    .item img {
-      min-height: 300px !important;
-    }
-}
+
 @media screen and (max-width: 480px) {
   .navbar-toggle .glyphicon {
     font-size: 25px;

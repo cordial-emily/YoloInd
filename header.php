@@ -39,7 +39,7 @@
                   <?php dynamic_sidebar( 'announcement_sidebar' ); ?>
                   <?php endif; ?>
          </div>
-         <div class="container">
+         <nav class="container">
            <div class="row">
              <div class="col-xs-3">
                  <?php get_template_part( 'logo'); ?>
@@ -72,5 +72,5 @@
               </div>
               </div>
             </div> <!-- end row -->
-         </div>
+         </nav>
      </header>
