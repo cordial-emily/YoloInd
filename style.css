@@ -859,6 +859,9 @@ span.dashicons.dashicons-clock {
   .item img {
      min-height: 300px !important;
   }
+  .carousel-caption {
+   left: 30%;
+  }
   .col-sm-6 h2 {
       text-align: center;
   }
@@ -905,6 +908,13 @@ span.dashicons.dashicons-clock {
   }
   .item img {
     min-height: 300px !important;
+   }
+   .carousel-caption {
+    left: 30%;
+   }
+   .carousel-caption p {
+    font-size: 11px;
+    line-height: 1.3em;
    }
    .col-sm-6 h2 {
     text-align: center;
