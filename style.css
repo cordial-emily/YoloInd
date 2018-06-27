@@ -542,7 +542,7 @@ ul.nav.nav-pills.nav-stacked.social li p a span.dashicons {
   font-size: 3em;
   margin-right: 30px;
 }
-ul.social.social-menu li p a {
+ul.social li p a {
     color: #687081;
 }
 ul.social.social-menu li p a:focus, ul.social.social-menu li p a:hover {
