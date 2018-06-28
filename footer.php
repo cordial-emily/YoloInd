@@ -21,8 +21,8 @@
                 <ul class="nav nav-pills nav-stacked social social-menu">
                   <li><p><a href="https://twitter.com/indivisibleyolo"><span class="dashicons dashicons-twitter"></span></a>
                          <a href="https://www.facebook.com/indivisibleyolo/"><span class="dashicons dashicons-facebook"></span></a>
-                         <a href=""><span class="dashicons dashicons-rss"></span></a>
-                         <a href=""><span class="dashicons dashicons-googleplus"></span></a></p>
+                         <!--<a href=""><span class="dashicons dashicons-rss"></span></a>
+                         <a href=""><span class="dashicons dashicons-googleplus"></span></a></p>-->
                 </ul>
                 <br>
                 </br>
