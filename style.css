@@ -797,6 +797,9 @@ span.dashicons.dashicons-clock {
   div#bs-example-navbar-collapse-1 {
     background: #192550;
   }
+  .navbar-nav {
+    float: left;
+  }
   .spacer {
       padding-left: 10%;
   }
@@ -897,6 +900,9 @@ span.dashicons.dashicons-clock {
   }
   .navbar-toggle .glyphicon {
     font-size: 25px;
+  }
+  .navbar-nav {
+    float: left;
   }
   div#bs-example-navbar-collapse-1 {
     background: #192550;
