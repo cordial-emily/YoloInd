@@ -178,6 +178,9 @@ li.dropdown.open ul li a {
     padding-top: 12;
     padding-bottom: 14px;
 }
+li.dropdown.open ul li a {
+    padding: 15px 15px 15px 25px !important;
+}
 ul.dropdown-menu {
     background: #192551;
     padding: 0px 0px 0px 0px;
@@ -190,10 +193,12 @@ ul.dropdown-menu {
     font-family: 'Montserrat', sans-serif;
     display: block;
     min-height: 35px;
+    padding: 15px;
 }
 .navbar-nav li a:hover {
     background-color: #4a516c;
     color: #fff;
+    padding: 15px;
 }
 button.navbar-toggle {
     color: #ffffff;
