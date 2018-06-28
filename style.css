@@ -905,6 +905,9 @@ span.dashicons.dashicons-clock {
   img.custom-logo {
     margin-left: 20px;
   }
+  header .col-xs-9 {
+    padding-left: 0px;
+  }
   .navbar-toggle .glyphicon {
     font-size: 25px;
   }
@@ -917,6 +920,7 @@ span.dashicons.dashicons-clock {
   }
   div#bs-example-navbar-collapse-1 {
     overflow: visible;
+    padding-left: 0px;
   }
   .navbar-collapse.collapse.in {
     overflow: visible;
