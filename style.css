@@ -794,11 +794,18 @@ span.dashicons.dashicons-clock {
   img.custom-logo {
     margin-left: 20px;
   }
-  div#bs-example-navbar-collapse-1 {
-    background: #192550;
-  }
   .navbar-nav {
     float: left;
+  }
+  button.navbar-toggle {
+    display: block;
+    margin-left: 400px;
+  }
+  div#bs-example-navbar-collapse-1 {
+    overflow: visible;
+  }
+  .navbar-collapse.collapse.in {
+    overflow: visible;
   }
   .spacer {
       padding-left: 10%;
@@ -904,8 +911,15 @@ span.dashicons.dashicons-clock {
   .navbar-nav {
     float: left;
   }
+  button.navbar-toggle {
+    display: block;
+    margin-left: 300px;
+  }
   div#bs-example-navbar-collapse-1 {
-    background: #192550;
+    overflow: visible;
+  }
+  .navbar-collapse.collapse.in {
+    overflow: visible;
   }
   .col-xs-2 {
       width: 60%;
