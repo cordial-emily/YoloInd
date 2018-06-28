@@ -285,8 +285,8 @@ img.custom-logo {
 }
 .navbar-nav {
     margin: 0;
+    float: right;
 }
-
 .content p {
     line-height: 30px;
     font-size: 16px;
