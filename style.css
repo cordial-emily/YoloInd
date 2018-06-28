@@ -545,7 +545,7 @@ ul.nav.nav-pills.nav-stacked.social li p a span.dashicons {
 ul.social li p a {
     color: #687081;
 }
-ul.social.social-menu li p a:focus, ul.social.social-menu li p a:hover {
+ul.social.social-menu li p a:focus, ul.social.social-menu li p a:hover, ul.nav.nav-pills.nav-stacked.social li p a span.dashicons:hover {
     color: #4a506c;
     text-decoration: none;
 }
@@ -748,7 +748,7 @@ span.dashicons.dashicons-clock {
     height: 60px;
   }
   img.custom-logo {
-    height: 25px;
+      height: 20px;
   }
   #bs-example-navbar-collapse-1 ul#menu-main {
     float: right;
