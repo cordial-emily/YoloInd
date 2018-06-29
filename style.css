@@ -66,9 +66,9 @@ audio:not([controls]) {
     display: none;
     height: 0;
 }
-a { color: #19254f; }
+a { color: #676f80; }
+a:hover { text-decoration: none; }
 ul { list-style-type: none; }
-
 [hidden],
 template {
     display: none;
