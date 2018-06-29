@@ -135,3 +135,10 @@ function custom_excerpt_length( $length ) {
 	return 14;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+// adding social media icons (static item) to menu
+
+function add_last_nav_item($items) {
+  return $items .= '<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-94 dropdown"><a href="https://twitter.com/indivisibleyolo"><span class="dashicons dashicons-twitter"></span></a><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-94 dropdown"><a href="https://www.facebook.com/indivisibleyolo/"><span class="dashicons dashicons-facebook"></span></a></li>';
+}
+add_filter('wp_nav_menu_items','add_last_nav_item');
